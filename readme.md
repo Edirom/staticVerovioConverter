@@ -8,4 +8,4 @@ Use as follows:
 Move to the folder containing the MEI files to be converted, then use Docker as
 follows:
 
-docker run --rm -it -v $(pwd):/data edirom/staticVerovioConverter:latest
+docker run --rm -it -v $(pwd):/data edirom/staticverovioconverter:latest
