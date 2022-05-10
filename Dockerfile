@@ -4,7 +4,7 @@
 # USE: Navigate to the folder containing the MEI files that are supposed to be
 # converted. Accepts files with both .xml and .mei ending.
 # Then run the following command:
-# docker run --rm -it -v $(pwd):/data edirom/staticVerovioConverter:latest
+# docker run --rm -it -v $(pwd):/data edirom/staticverovioconverter:latest
 #########################
 
 FROM node:18.1.0-alpine3.15
