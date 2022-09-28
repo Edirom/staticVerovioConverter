@@ -67,7 +67,7 @@ jobs:
       - name: Log in to DockerHub
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
         with:
-          username: ${{ secrets.BWBOHL_DOCKERHUB_USERNAME }}
+          username: vifebot
           password: ${{ secrets.VIFEBOT_DOCKERHUB_TOKEN }}
 
       # Extract metadata (tags, labels) for Docker
