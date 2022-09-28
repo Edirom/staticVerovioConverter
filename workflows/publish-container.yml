@@ -78,7 +78,7 @@ jobs:
         with:
           images: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-            ${{ secrets.BWBOHL_DOCKERHUB_USERNAME }}/${{ env.DOCKERHUB_IMAGE_NAME }}
+            edirom/staticverovioconverter
           flavor: |
             latest=${{ github.ref == 'refs/heads/main' }}
       # Build and push Docker image with Buildx (don't push on PR)
